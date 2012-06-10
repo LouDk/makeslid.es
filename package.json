@@ -1,0 +1,22 @@
+{
+  "name": "makeslid.es",
+  "description": "",
+  "author": {
+    "name": "Miha Hribar",
+    "email": "miha@hribar.info"
+  },
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {
+	  "socket.io": "*",
+	  "express": "*",
+	  "whiskers": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.6.x"
+  }
+}

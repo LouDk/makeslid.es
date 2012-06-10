@@ -1,0 +1,7 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('localhost', {port: 3000});
+  function next() {
+      socket.emit('control', { next: 1 });
+  }
+</script>
