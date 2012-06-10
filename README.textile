@@ -1,16 +1,28 @@
 h1. Wiki makeslid.es
 
-h2. Kratek opis
+h2. Short description
 
-Spletna aplikacija za izdelavo in predstavljanje html predstavitev.
+Web application for creating and controling html presentations (slides).
 
 h2. App page description
 
-Predstavitev je odprta v browserju, nadzira pa se jo preko "control" pagea, ki je prilagojen za mobilne naprave oz web.
-App bo imel FB in twitter login in share posameznih predstavitev.
-Na control pageu vidiš kontrole (naprej, nazaj, gor, dol), timer, opombe za posamezne slide.
+Responsive design.
+Users can login using Facebook connect or twitter sign in (and github?).
+App consists of an editing screen (list with all created presentations), adding screen (where you create new presentations) and profile/settings screen.
 
-h2. Tehnologije, knjižnice ipd
+*Editing screen* has a list of all created presentations.
+If presentation is currently active it is marked diferently.
+You can easily share presentations (FB, Twitter, E-mail).
+
+*Adding screen* Each slide has it's own "frame".
+You can add more slides with a button +.
+*textile* is used for content markup.
+
+*Profile screen* has your info and enables you to change settings.
+You can also make your profile private or public.
+
+
+h2. Used technologies and libraries
 
 * Reveal.js - https://github.com/hakimel/reveal.js
 * Node.js
