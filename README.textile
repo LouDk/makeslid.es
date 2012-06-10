@@ -1,0 +1,18 @@
+h1. Wiki makeslid.es
+
+h2. Kratek opis
+
+Spletna aplikacija za izdelavo in predstavljanje html predstavitev.
+
+h2. App page description
+
+Predstavitev je odprta v browserju, nadzira pa se jo preko "control" pagea, ki je prilagojen za mobilne naprave oz web.
+App bo imel FB in twitter login in share posameznih predstavitev.
+Na control pageu vidiš kontrole (naprej, nazaj, gor, dol), timer, opombe za posamezne slide.
+
+h2. Tehnologije, knjižnice ipd
+
+* Reveal.js - https://github.com/hakimel/reveal.js
+* Node.js
+* Backbone.js - http://backbonejs.org/
+* socket.io
