@@ -11,20 +11,49 @@ Users can login using Facebook connect or twitter sign in (and github?).
 App consists of an editing screen (list with all created presentations), adding screen (where you create new presentations) and profile/settings screen.
 
 *Editing screen* has a list of all created presentations.
+You can start a presentation (link will take you to a control page).
 If presentation is currently active it is marked diferently.
 You can easily share presentations (FB, Twitter, E-mail).
 
 *Adding screen* Each slide has it's own "frame".
-You can add more slides with a button +.
+You can add more slides with a "+" button.
+You can enter an easy to remember URL for your presentation (http://makeslid.es/username/presentationname)
 *textile* is used for content markup.
+At the beginning you'll only have the option to choose from a list of already made css templates.
+_Later on we'll add the option to create or upload your own css style._
+_We'll also enable you to upload your own html presentations._
 
 *Profile screen* has your info and enables you to change settings.
 You can also make your profile private or public.
 
+h2. Control page description
+
+Responsive design.
+You control the presentation from this page (websockets - socket.io).
+
+*Elements on a mobile view*
+* Before you start the presentation, you only see a presentation title and a START button
+* Timer (showing you how much time you already used)
+* Control buttons (next, previous, up, down)
+* Short notes for each slides
+* Small progress bar at the bottom
+* Link to a screen with a list of all the slides (just titles, that take you to the selected slide)
+* Notification icon and a link to a list of questions (that listeners can add in real time)
+
+*Elements on a bigger view*
+* Same as on mobile
+* Link to slides screen is removed and replaced with actual thumbs of slides
+* Questions container with questions showing up in real time
+* Slide number (current/total)
+
+h2. Slide page description
+
+The page for the presentation itself.
+Presentations are played using Reveal.js
 
 h2. Used technologies and libraries
 
 * Reveal.js - https://github.com/hakimel/reveal.js
-* Node.js
-* Backbone.js - http://backbonejs.org/
-* socket.io
+* Node.js - https://github.com/joyent/node
+* Backbone.js - https://github.com/documentcloud/backbone
+* socket.io - https://github.com/learnboost/socket.io
