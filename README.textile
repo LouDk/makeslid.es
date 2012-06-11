@@ -57,4 +57,5 @@ h2. Used technologies and libraries
 * Node.js - https://github.com/joyent/node
 * Backbone.js - https://github.com/documentcloud/backbone
 * socket.io - https://github.com/learnboost/socket.io
-* textile - http://textile.sitemonks.com/
+* textile - http://textile.sitemonks.com
+* Mongodb - http://www.mongodb.org

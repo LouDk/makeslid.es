@@ -10,11 +10,17 @@
     "url": ""
   },
   "dependencies": {
-	  "socket.io": "*",
-	  "express": "*",
-	  "whiskers": "*"
+	  "socket.io": "0.9.5",
+	  "express": "2.5.9",
+	  "express-resource": "0.2.4",
+	  "whiskers": "0.2.2",
+	  "everyauth": "0.2.32",
+	  "mongoose": "2.5.10"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "expresso": "0.9.0",
+    "should": "0.6.3"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "0.6.x"
